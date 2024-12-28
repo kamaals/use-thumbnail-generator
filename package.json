@@ -1,6 +1,6 @@
 {
   "name": "use-thumbnail-generator",
-  "version": "5.0.0",
+  "version": "0.0.1",
   "description": "Generate upload thumbnails with File object and show upload status",
   "author": "Kamaal ABOOTHALIB",
   "license": "MIT",
