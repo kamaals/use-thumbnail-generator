@@ -1,0 +1,29 @@
+.info
+	position: absolute
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	z-index: 200
+	&SuccessSVGWarapper
+		position: absolute
+		top: .5rem
+		right: .5rem
+		bottom: .5rem
+		left: .5rem
+		opacity: 0.8
+		transition-property: all
+		transition-timing-function: cubic-bezier(.4,0,.2,1)
+		transition-duration: .7s
+		transform: translateX(-120%) !important
+		&Completed
+			transform: translateX(0) !important
+		&Done
+			transform: translateX(120%) !important
+
+	&PercentageText
+		position: absolute
+		z-index: 100
+		bottom: 0.5rem
+		left: 0.5rem
+		color: #fff

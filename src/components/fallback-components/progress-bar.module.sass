@@ -1,0 +1,44 @@
+.progress
+	position: relative
+	overflow: hidden
+.h
+	&Wrapper
+		width: 100%
+		border-radius: 9999px
+		height: .75rem
+		background-color: #eee
+		box-shadow: inset 0 0 5px rgba(0, 0, 0, .16)
+	&Bar
+		flex: 1
+		width: 100%
+		height: 100%
+		background-color: green
+		transition-property: all
+		transition-timing-function: cubic-bezier(.4,0,.2,1)
+		transition-duration: .7s
+.v
+	&Wrapper
+		width: 100%
+		height: 100%
+		background: transparent
+		position: absolute
+		z-index: 100
+
+		&Done
+			width: 100%
+	&Bar
+		position: absolute
+		flex: 1
+		width: 100%
+		height: 100%
+		background-color: #43a047
+		transition-property: all
+		transition-timing-function: cubic-bezier(.4,0,.2,1)
+		transition-duration: .7s
+		opacity: 0.8
+		transform: translate(50%, -100%)
+
+		&Completed
+			transform: translate(100%, 0) !important
+		&Done
+			transform: translate(0, 100%) !important
