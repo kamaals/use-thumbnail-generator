@@ -1,8 +1,8 @@
-name: react-rollup-boilerplate
+name: use-thumbnail-generator
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
