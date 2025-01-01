@@ -17,6 +17,6 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           # Defaults to the user or organization that owns the workflow file
       - run: yarn
-      - run: yarn npm publish // for Yarn version 1, use `yarn publish` instead
+      - run: yarn npm publish
         env:
          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
