@@ -8208,76 +8208,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-upload-thumbs@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-upload-thumbs@workspace:."
-  dependencies:
-    "@chromatic-com/storybook": "npm:^3.2.3"
-    "@eslint/js": "npm:^9.17.0"
-    "@rollup/plugin-commonjs": "npm:^28.0.2"
-    "@rollup/plugin-node-resolve": "npm:^16.0.0"
-    "@rollup/plugin-terser": "npm:^0.4.4"
-    "@rollup/plugin-typescript": "npm:^12.1.2"
-    "@rollup/plugin-url": "npm:^8.0.2"
-    "@storybook/addon-docs": "npm:^8.4.7"
-    "@storybook/addon-essentials": "npm:^8.4.7"
-    "@storybook/addon-interactions": "npm:^8.4.7"
-    "@storybook/addon-links": "npm:^8.4.7"
-    "@storybook/addon-onboarding": "npm:^8.4.7"
-    "@storybook/blocks": "npm:^8.4.7"
-    "@storybook/react": "npm:^8.4.7"
-    "@storybook/react-vite": "npm:^8.4.7"
-    "@storybook/test": "npm:^8.4.7"
-    "@svgr/rollup": "npm:^8.1.0"
-    "@testing-library/dom": "npm:^10.4.0"
-    "@testing-library/jest-dom": "npm:^6.6.3"
-    "@testing-library/react": "npm:^16.1.0"
-    "@testing-library/user-event": "npm:^14.5.2"
-    "@types/node": "npm:^22.10.2"
-    "@types/react": "npm:^19.0.2"
-    "@types/react-dom": "npm:^19.0.2"
-    "@vitejs/plugin-react": "npm:^4.3.4"
-    clsx: "npm:^2.1.1"
-    eslint: "npm:^9.17.0"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-import: "npm:^2.31.0"
-    eslint-plugin-jsx-a11y: "npm:^6.10.2"
-    eslint-plugin-prettier: "npm:^5.2.1"
-    eslint-plugin-react: "npm:^7.37.2"
-    eslint-plugin-react-hooks: "npm:^5.1.0"
-    eslint-plugin-react-refresh: "npm:^0.4.16"
-    eslint-plugin-storybook: "npm:^0.11.1"
-    globals: "npm:^15.14.0"
-    jsdom: "npm:^25.0.1"
-    postcss: "npm:^8.4.49"
-    postcss-scss: "npm:^4.0.9"
-    prettier: "npm:3.4.2"
-    react: "npm:^19.0.0"
-    react-dom: "npm:^19.0.0"
-    regenerator-runtime: "npm:^0.14.1"
-    rimraf: "npm:^6.0.1"
-    rollup: "npm:^4.29.1"
-    rollup-plugin-dts: "npm:^6.1.1"
-    rollup-plugin-peer-deps-external: "npm:^2.2.4"
-    rollup-plugin-postcss: "npm:^4.0.2"
-    sass: "npm:^1.83.0"
-    storybook: "npm:^8.4.7"
-    stylelint: "npm:^16.12.0"
-    stylelint-prettier: "npm:^5.0.2"
-    stylelint-scss: "npm:^6.10.0"
-    tslib: "npm:^2.8.1"
-    typescript: "npm:5.7.2"
-    typescript-eslint: "npm:^8.18.1"
-    vite: "npm:^6.0.5"
-    vite-plugin-svgr: "npm:^4.3.0"
-    vitest: "npm:^2.1.8"
-  peerDependencies:
-    clsx: 2.x
-    react: 19.x
-    react-dom: 19.x
-  languageName: unknown
-  linkType: soft
-
 "react@npm:^16.8.0 || ^17.0.0 || ^18.0.0":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
@@ -9769,6 +9699,76 @@ __metadata:
   checksum: 10/b271ca7e3d46b7160222e3afa3e531505161c9a4e097febae9664e4b59912f4cbe94861361a4175edac3a03fee99d91e44b6a58c17a634bc5a664b19fc76fbcb
   languageName: node
   linkType: hard
+
+"use-thumbnail-generator@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "use-thumbnail-generator@workspace:."
+  dependencies:
+    "@chromatic-com/storybook": "npm:^3.2.3"
+    "@eslint/js": "npm:^9.17.0"
+    "@rollup/plugin-commonjs": "npm:^28.0.2"
+    "@rollup/plugin-node-resolve": "npm:^16.0.0"
+    "@rollup/plugin-terser": "npm:^0.4.4"
+    "@rollup/plugin-typescript": "npm:^12.1.2"
+    "@rollup/plugin-url": "npm:^8.0.2"
+    "@storybook/addon-docs": "npm:^8.4.7"
+    "@storybook/addon-essentials": "npm:^8.4.7"
+    "@storybook/addon-interactions": "npm:^8.4.7"
+    "@storybook/addon-links": "npm:^8.4.7"
+    "@storybook/addon-onboarding": "npm:^8.4.7"
+    "@storybook/blocks": "npm:^8.4.7"
+    "@storybook/react": "npm:^8.4.7"
+    "@storybook/react-vite": "npm:^8.4.7"
+    "@storybook/test": "npm:^8.4.7"
+    "@svgr/rollup": "npm:^8.1.0"
+    "@testing-library/dom": "npm:^10.4.0"
+    "@testing-library/jest-dom": "npm:^6.6.3"
+    "@testing-library/react": "npm:^16.1.0"
+    "@testing-library/user-event": "npm:^14.5.2"
+    "@types/node": "npm:^22.10.2"
+    "@types/react": "npm:^19.0.2"
+    "@types/react-dom": "npm:^19.0.2"
+    "@vitejs/plugin-react": "npm:^4.3.4"
+    clsx: "npm:^2.1.1"
+    eslint: "npm:^9.17.0"
+    eslint-config-prettier: "npm:^9.1.0"
+    eslint-plugin-import: "npm:^2.31.0"
+    eslint-plugin-jsx-a11y: "npm:^6.10.2"
+    eslint-plugin-prettier: "npm:^5.2.1"
+    eslint-plugin-react: "npm:^7.37.2"
+    eslint-plugin-react-hooks: "npm:^5.1.0"
+    eslint-plugin-react-refresh: "npm:^0.4.16"
+    eslint-plugin-storybook: "npm:^0.11.1"
+    globals: "npm:^15.14.0"
+    jsdom: "npm:^25.0.1"
+    postcss: "npm:^8.4.49"
+    postcss-scss: "npm:^4.0.9"
+    prettier: "npm:3.4.2"
+    react: "npm:^19.0.0"
+    react-dom: "npm:^19.0.0"
+    regenerator-runtime: "npm:^0.14.1"
+    rimraf: "npm:^6.0.1"
+    rollup: "npm:^4.29.1"
+    rollup-plugin-dts: "npm:^6.1.1"
+    rollup-plugin-peer-deps-external: "npm:^2.2.4"
+    rollup-plugin-postcss: "npm:^4.0.2"
+    sass: "npm:^1.83.0"
+    storybook: "npm:^8.4.7"
+    stylelint: "npm:^16.12.0"
+    stylelint-prettier: "npm:^5.0.2"
+    stylelint-scss: "npm:^6.10.0"
+    tslib: "npm:^2.8.1"
+    typescript: "npm:5.7.2"
+    typescript-eslint: "npm:^8.18.1"
+    vite: "npm:^6.0.5"
+    vite-plugin-svgr: "npm:^4.3.0"
+    vitest: "npm:^2.1.8"
+  peerDependencies:
+    clsx: 2.x
+    react: 19.x
+    react-dom: 19.x
+  languageName: unknown
+  linkType: soft
 
 "util-deprecate@npm:^1.0.2":
   version: 1.0.2
