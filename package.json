@@ -9,9 +9,7 @@
     "url": "git@github.com:kamaals/use-thumbnail-generator.git"
   },
   "homepage": "https://github.com/kamaal/use-thumbnail-generator",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/use-thumbnail-generator"
-  },
+
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
