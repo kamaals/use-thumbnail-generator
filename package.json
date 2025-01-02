@@ -5,6 +5,7 @@
   "author": "Kamaal ABOOTHALIB",
   "license": "MIT",
   "repository": {
+    "name": "use-thumbnail-generator",
     "type": "git",
     "url": "git@github.com:kamaals/use-thumbnail-generator.git"
   },
