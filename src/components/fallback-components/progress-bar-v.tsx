@@ -1,5 +1,5 @@
 import classes from './progress-bar.module.sass';
-import { ProgressRendererProps, UploadStatus } from '../types';
+import { ProgressRendererProps, UploadStatus } from '../../@types/';
 import clsx from '../../utils/clsx';
 
 function ProgressBarV({ percentage, status }: ProgressRendererProps) {

@@ -1,4 +1,4 @@
-function SuccessSvg({ size = 24, className }: { size?: number; className?: string }) {
+function ClockSvg({ size = 24, className }: { size?: number; className?: string }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,10 +12,12 @@ function SuccessSvg({ size = 24, className }: { size?: number; className?: strin
       stroke-linejoin="round"
       className={'lucide lucide-circle-check ' + className ? className : ''}
     >
-      <circle cx="12" cy="12" r="10" />
-      <path d="m9 12 2 2 4-4" />
+      <path d="M13.228 21.925A10 10 0 1 1 21.994 12.338" />
+      <path d="M12 6v6l1.562.781" />
+      <path d="m14 18 4-4 4 4" />
+      <path d="M18 22v-8" />
     </svg>
   );
 }
 
-export default SuccessSvg;
+export default ClockSvg;

@@ -1,0 +1,29 @@
+.animated
+	position: absolute
+	left: 0
+	right: 0
+	top: 0
+	bottom: 0
+	background: transparent
+	transition-property: all
+	transition-timing-function: cubic-bezier(.4,0,.2,1)
+	transition-duration: .3s
+	display: flex
+	flex: 1
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	&BeginHorizontal
+		transform: translateX(-100%)
+	&EndHorizontal
+		transform: translateX(100%)
+	&AnimateHorizontal
+		transition-delay: .2s
+		transform: translateX(0)
+	&BeginVertical
+		transform: translateY(-100%)
+	&EndVertical
+		transform: translateY(100%)
+	&AnimateVertical
+		transition-delay: .2s
+		transform: translateY(0)

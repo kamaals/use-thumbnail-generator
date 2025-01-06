@@ -1,44 +1,14 @@
 {
   "name": "use-thumbnail-generator",
-  "version": "0.0.1",
-  "description": "Generate upload thumbnails with File object and show upload status",
+  "version": "0.0.25",
   "author": "Kamaal ABOOTHALIB",
-  "license": "MIT",
   "repository": {
     "name": "use-thumbnail-generator",
     "type": "git",
     "url": "git@github.com:kamaals/use-thumbnail-generator.git"
   },
-  "homepage": "https://github.com/kamaal/use-thumbnail-generator",
-
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "type": "module",
-  "engines": {
-    "node": ">=18"
-  },
-  "scripts": {
-    "start": "NODE_ENV=development BABEL_ENV=development yarn storybook",
-    "build": "rimraf dist && NODE_ENV=production BABEL_ENV=production rollup -c",
-    "lint": "yarn check-types && yarn eslint && yarn stylelint",
-    "lint:fix": "yarn eslint:fix && yarn stylelint:fix",
-    "eslint": "eslint . --report-unused-disable-directives --max-warnings 0",
-    "eslint:fix": "eslint . --fix",
-    "stylelint": "stylelint \"**/*.{css,scss,sass}\"",
-    "stylelint:fix": "stylelint \"**/*.{css,scss,sass}\" --fix",
-    "check-types": "tsc --noEmit true",
-    "ci": "yarn lint && yarn test --watch=false",
-    "test": "vitest --config ./vitest.config.ts",
-    "release": "yarn ci && yarn build && npm publish",
-    "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build"
-  },
-  "peerDependencies": {
-    "clsx": "2.x",
-    "react": "19.x",
-    "react-dom": "19.x"
-  },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.3",
     "@eslint/js": "^9.17.0",
@@ -100,5 +70,34 @@
     "vite-plugin-svgr": "^4.3.0",
     "vitest": "^2.1.8"
   },
-  "packageManager": "yarn@4.5.3"
+  "peerDependencies": {
+    "clsx": "2.x",
+    "react": "19.x",
+    "react-dom": "19.x"
+  },
+  "description": "Generate upload thumbnails with File object and show upload status",
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/kamaals/use-thumbnail-generator",
+  "license": "MIT",
+  "packageManager": "yarn@4.5.3",
+  "scripts": {
+    "start": "NODE_ENV=development BABEL_ENV=development yarn storybook",
+    "build": "rimraf dist && NODE_ENV=production BABEL_ENV=production rollup -c",
+    "lint": "yarn check-types && yarn eslint && yarn stylelint",
+    "lint:fix": "yarn eslint:fix && yarn stylelint:fix",
+    "eslint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "eslint:fix": "eslint . --fix",
+    "stylelint": "stylelint \"**/*.{css,scss,sass}\"",
+    "stylelint:fix": "stylelint \"**/*.{css,scss,sass}\" --fix",
+    "check-types": "tsc --noEmit true",
+    "ci": "yarn lint && yarn test --watch=false",
+    "test": "vitest --config ./vitest.config.ts",
+    "release": "yarn ci && yarn build && npm publish",
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "storybook build"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts"
 }

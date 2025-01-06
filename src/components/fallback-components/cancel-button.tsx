@@ -1,4 +1,4 @@
-import { CancelButtonProps } from '../types';
+import { CancelButtonProps } from '../../@types/';
 import CancelSvg from './cancel-svg';
 import classes from './cancel-button.module.sass';
 

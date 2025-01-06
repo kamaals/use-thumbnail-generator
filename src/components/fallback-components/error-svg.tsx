@@ -1,20 +1,20 @@
-import classes from './error-svg.module.sass';
-import clsx from '../../utils/clsx';
-
-function ErrorSvg({ className }: { className?: string }) {
+function ErrorSvg({ size = 24, className }: { size?: number; className?: string }) {
   return (
-    <svg className={clsx(className)} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-      <circle className={classes.svgCircle} cx="25" cy="25" r="25" />
-      <polyline
-        className={classes.svgPolyline}
-        points="16,34 25,25 34,16
-	"
-      />
-      <polyline
-        className={classes.svgPolyline}
-        points="16,16 25,25 34,34
-	"
-      />
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      className={'lucide lucide-circle-x ' + className ? className : ''}
+    >
+      <circle cx="12" cy="12" r="10" />
+      <path d="m15 9-6 6" />
+      <path d="m9 9 6 6" />
     </svg>
   );
 }
